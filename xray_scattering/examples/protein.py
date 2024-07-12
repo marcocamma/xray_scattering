@@ -13,7 +13,7 @@ air = debye.read_from_database("air")
 q = np.linspace(0,3,1001)
 
 atoms,coords=io.read_pdb("1bbb")
-protein=debye.calc_debye_distribution(atoms,coords,q, solvent_electron_density=0)#.334)
+protein=debye.calc_debye_distribution(atoms,coords,q, solvent_electron_density=0.334)
 
 
 
