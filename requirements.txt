@@ -1,0 +1,8 @@
+datastorage @ git+https://github.com/marcocamma/datastorage.git
+h5py
+matplotlib
+numpy
+pdb_reader @ git+https://github.com/marcocamma/pdb_reader.git
+sr @ git+https://github.com/marcocamma/sr.git
+xraylib
+xrt
